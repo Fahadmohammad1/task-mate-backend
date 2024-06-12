@@ -9,4 +9,5 @@ export type ITask = {
   deadline: string;
   priority: Priorities;
   description: string;
+  user: string;
 };

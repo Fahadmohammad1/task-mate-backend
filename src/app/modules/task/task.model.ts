@@ -20,6 +20,10 @@ const taskSchema = new Schema<ITask>(
       type: String,
       default: "No Description added",
     },
+    user: {
+      type: String,
+      required: true,
+    },
   },
   {
     timestamps: true,
